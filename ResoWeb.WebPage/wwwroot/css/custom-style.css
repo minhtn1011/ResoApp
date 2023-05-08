@@ -1,0 +1,12 @@
+html, body, p, .title-desc {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.title-desc {
+    font-size: 50%;
+}
+
+.custom-logo {
+    width: 65%;
+    margin-bottom: 10px;
+}

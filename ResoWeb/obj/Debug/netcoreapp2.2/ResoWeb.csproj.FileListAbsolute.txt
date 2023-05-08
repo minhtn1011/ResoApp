@@ -1,0 +1,13 @@
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\bin\Debug\netcoreapp2.2\ResoWeb.deps.json
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\bin\Debug\netcoreapp2.2\ResoWeb.runtimeconfig.json
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\bin\Debug\netcoreapp2.2\ResoWeb.runtimeconfig.dev.json
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\bin\Debug\netcoreapp2.2\ResoWeb.dll
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\bin\Debug\netcoreapp2.2\ResoWeb.pdb
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\obj\Debug\netcoreapp2.2\ResoWeb.csproj.AssemblyReference.cache
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\obj\Debug\netcoreapp2.2\ResoWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\obj\Debug\netcoreapp2.2\ResoWeb.AssemblyInfoInputs.cache
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\obj\Debug\netcoreapp2.2\ResoWeb.AssemblyInfo.cs
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\obj\Debug\netcoreapp2.2\ResoWeb.csproj.CoreCompileInputs.cache
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\obj\Debug\netcoreapp2.2\ResoWeb.dll
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\obj\Debug\netcoreapp2.2\ResoWeb.pdb
+C:\Users\minh2\OneDrive\Desktop\ResoWeb\ResoWeb\ResoWeb\obj\Debug\netcoreapp2.2\ResoWeb.genruntimeconfig.cache

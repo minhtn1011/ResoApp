@@ -1,0 +1,474 @@
+﻿@page
+@model IndexModel
+@{
+}
+
+@section style{
+    <style>
+        .p-bottom {
+            padding-bottom: 1px;
+        }
+
+        #service h3 {
+            font-weight: bold;
+        }
+
+        .service-content a {
+            color: #6A6A6A;
+        }
+
+            .service-content a:hover {
+                color: #ee3b24;
+            }
+
+        .client_logo a img {
+            width: 200px !important;
+            height: 75px !important;
+        }
+
+        .feature-icon{
+            background-color: unset!important;
+            width: 85px!important;
+            height: 85px!important;
+            border-radius: unset!important;
+            margin-right: 20px;
+        }
+
+        .img-block-right{
+            padding-right: unset!important;
+        }
+    </style>
+}
+
+<!-- Slider start -->
+<section id="home" class="p-0">
+    <div id="main-slide" class="cd-hero">
+        <ul class="cd-hero-slider">
+            <li class="selected">
+                <div class="overlay2">
+                    <img class="" src="~/images/temps/erp.jpg" alt="slider">
+                </div>
+                <div class="cd-full-width">
+                    <h2>Chuyển đổi số</h2>
+                    <h3>Đồng hành cùng các thương hiệu bán lẻ trong quá trình chuyển đổi số</h3>
+                    <a href="#0" class="btn btn-primary white cd-btn">Start Now</a>
+                    <a href="#0" class="btn btn-primary solid cd-btn">Learn More</a>
+                </div> <!-- .cd-full-width -->
+            </li>
+            <li>
+                <div class="overlay2">
+                    <img class="" src="~/images/temps/tech.jpg" alt="slider">
+                </div>
+                <div class="cd-half-width">
+                    <h2>Một nền tảng công nghệ</h2>
+                    <p>Nghiệp vụ chuyên nghiệp, tính chính xác cao, góp phần thúc đẩy tăng tốc cho doanh nghiệp</p>
+                    <a href="#0" class="cd-btn btn btn-primary solid">Take a Tour</a>
+                </div> <!-- .cd-half-width -->
+
+                <div class="cd-half-width cd-img-container">
+                    <img src="~/images/temps/pos.png" alt="">
+                </div> <!-- .cd-half-width.cd-img-container -->
+            </li>
+            <li>
+                <div class="overlay2">
+                    <img class="" src="~/images/temps/special.jpg" alt="slider">
+                </div>
+                <div class="cd-half-width cd-img-container img-right">
+                    <img src="~/images/temps/allinone.png" alt="">
+                </div> <!-- .cd-half-width.cd-img-container -->
+                <div class="cd-half-width">
+                    <h2>ĐẶC TÍNH VƯỢT TRỘI</h2>
+                    <p>Tổng thể, đồng nhất, tập trung</p>
+                    <a href="#0" class="cd-btn btn btn-primary white">Start</a>
+                    <a href="#0" class="cd-btn btn secondary btn-primary solid">Learn More</a>
+                </div> <!-- .cd-half-width -->
+            </li>
+        </ul>
+        <!--/ cd-hero-slider -->
+
+        <div class="cd-slider-nav">
+            <nav>
+                <span class="cd-marker item-1"></span>
+                <ul>
+                    <li class="selected"><a href="#0"><i class="fa fa-bicycle"></i> TRANS</a></li>
+                    <li><a href="#0"><i class="fa fa-hotel"></i> Tech</a></li>
+                    <li><a href="#0"><i class="fa fa-android"></i> Platform</a></li>
+                </ul>
+            </nav>
+        </div> <!-- .cd-slider-nav -->
+
+    </div>
+    <!--/ Main slider end -->
+</section>
+<!--/ Slider end -->
+
+<section id="image-block" class="image-block p-0 ">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 ts-padding"
+                 style="background:url(/images/temps/problem.jpg) 50% 50% / cover no-repeat;">
+            </div>
+            <div class="col-md-6 ts-padding img-block-right">
+                <div class="img-block-head text-center">
+                    <h3>RESO</h3>
+                    <h2>Giúp gì cho doanh nghiệp?</h2>
+                    <p>
+                    </p>
+                </div>
+
+                <div class="gap-30"></div>
+
+                <div class="image-block-content">
+                    <img src="~/images/THHH_single/handshake.svg" class="feature-icon float-left">
+                    <div class="feature-content">
+                        <h3>
+                            Đồng hành cùng doanh nghiệp
+                        </h3>
+                        <p>
+                            Đào tạo chuyển giao công nghệ, cung cấp nhân sự
+                            vận hành IT và support trong quá trình chuyển đổi số 
+                        </p>
+                    </div>
+                </div>
+                <!--/ End 1st block -->
+
+                <div class="image-block-content">
+                    <img src="~/images/THHH_single/researcher.svg" class="feature-icon float-left">
+                    <div class="feature-content">
+                        <h3>Tập hợp chuyên gia</h3>
+                        <p>
+                            Với hơn 5 năm kinh nghiệm, chúng tôi tập trung những chuyên gia
+                            tốt nhất để hỗ trợ doanh nghiệp trong việc triển khai và áp dụng công nghệ
+                        </p>
+                    </div>
+                </div>
+                <!--/ End 1st block -->
+
+                <div class="image-block-content">
+                    <img src="~/images/THHH_single/database.svg" class="feature-icon float-left">
+                    <div class="feature-content">
+                        <h3>Chủ động trong hạ tầng công nghệ</h3> 
+                        <p>
+                            Giúp doanh nghiệp vận hành trên hạ tầng sẵn có,
+                            dữ liệu tập trung và đảm bảo tính bảo mật, ổn định.
+                        </p>
+                    </div>
+                </div>
+                <!--/ End 1st block -->
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Image block end -->
+
+
+@*<section id="image-block" class="image-block p-0 ">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 ts-padding"
+                 style="background:url(/images/temps/problem.jpg) 50% 50% / cover no-repeat;">
+            </div>
+            <div class="col-md-6 ts-padding img-block-right">
+                <div class="img-block-head text-center">
+                    <h3>RESO</h3>
+                    <h2>Giúp gì cho doanh nghiệp?</h2>
+                    <p>
+                    </p>
+                </div>
+
+                <div class="gap-30"></div>
+
+                <div class="image-block-content">
+                    <span class="feature-icon float-left"><i class="fa fa-television"></i></span>
+                    <div class="feature-content">
+                        <h3>
+                            Công nghệ phân tán
+                        </h3>
+                        <p>
+                            Nhiều thiết bị công nghệ được triển khai,
+                            nhiều hệ thống phần mềm,
+                            nhiều nhà cung cấp giải pháp, dẫn đến việc khó khăn trong việc trang bị,
+                            quản lý, bảo hành bảo trì.
+                        </p>
+                    </div>
+                </div>
+                <!--/ End 1st block -->
+
+                <div class="image-block-content">
+                    <span class="feature-icon float-left"><i class="fa fa-dashboard"></i></span>
+                    <div class="feature-content">
+                        <h3>Quản lí khó khăn</h3>
+                        <p>
+                            Cửa hàng phân tán tại nhiều địa điểm khó quản lý,
+                            không có nhân sự IT hoặc nhân sự IT chỉ chủ yếu làm các công việc helpdesk
+                        </p>
+                    </div>
+                </div>
+                <!--/ End 1st block -->
+
+                <div class="image-block-content">
+                    <span class="feature-icon float-left"><i class="fa fa-street-view"></i></span>
+                    <div class="feature-content">
+                        <h3>Nhân sự không kịp đáp ứng</h3>
+                        <p>
+                            Nhân sự vận hành trẻ , làm việc chủ yếu part-time, khả năng thay đổi nhanh nên khó khăn trong việc chuyển giao công nghệ
+                        </p>
+                    </div>
+                </div>
+                <!--/ End 1st block -->
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Image block end -->*@
+<!-- Service box start -->
+<section id="service" class="service ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 heading">
+                <span class="title-icon float-left"><i class="fa fa-cogs"></i></span>
+                <h2 class="title">
+                    Sản phẩm nổi bật <span class="title-desc">
+                        Vận hành doanh nghiệp dễ dàng
+                    </span>
+                </h2>
+            </div>
+        </div>
+        <!-- Title row end -->
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="products/pos">
+                        <img class="m-3" src="~/images/THHH_single/pos.png" />
+                        <h3>Reso POS</h3>
+                        <p>Máy POS bán hàng</p>
+                    </a>
+                </div>
+            </div>
+            <!--/ End first service -->
+
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="products/inventory">
+                        <img class="m-3" src="~/images/THHH_single/inventory.png" />
+                        <h3>Reso Inventory</h3>
+                        <p>
+                            Quản lí kho bãi
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!--/ End Second service -->
+
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="products/time">
+                        <img class="m-3" src="~/images/THHH_single/attendant.png" />
+                        <h3>Reso Time &amp; Attendance</h3>
+                        <p>
+                            Quản lí giờ công và điểm danh
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!--/ End Third service -->
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="products/bi">
+                        <img class="m-3" src="~/images/THHH_single/business.png" />
+                        <h3>Reso BI (Business Intelligence)</h3>
+                        <p>
+                            Quản lí tri thức, tài liệu của doanh nghiệp
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="products/loyalty">
+                        <img class="m-3" src="~/images/THHH_single/loyalty.png" />
+                        <h3>Reso Loyalty &amp; Promotion</h3>
+                        <p>
+                            Quản lí và thực thi chương trình <br />thành viên, khuyến mãi
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="products/cashflow">
+                        <img class="m-3" src="~/images/THHH_single/finance.png" />
+                        <h3>Reso Cash Flow &amp; Finance</h3>
+                        <p>
+                            Quản lí dòng tiền và tài chính doanh nghiệp
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+        </div><!-- Content row end -->
+    </div>
+    <!--/ Container end -->
+</section>
+<!--/ Service box end -->
+<!-- Service box start -->
+<section id="service" class="service ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 heading">
+                <span class="title-icon float-left"><i class="fa fa-cogs"></i></span>
+                <h2 class="title">
+                    Giải pháp <span class="title-desc">
+                        Được tin dùng bởi nhiều đối tác
+                    </span>
+                </h2>
+            </div>
+        </div><!-- Title row end -->
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="solutions/integration">
+                        <img class="m-3" src="~/images/THHH_single/payment.png" />
+                        <h3>Payment &amp; Promotion Integration</h3>
+                        <p>
+                            Tích hợp thanh toán online Momo, GrapPay...<br />
+                            Liên kết các trang phân phối khuyến mãi như Jamja, Meete
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!--/ End first service -->
+
+            <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="solutions/online">
+                        <img class="m-3" src="~/images/THHH_single/delivery.png" />
+                        <h3>Online Ordering &amp; Delivering</h3>
+                        <p>
+                            Giải pháp đặt hàng và giao hàng online cho doanh nghiệp
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!--/ End Second service -->
+
+        </div><!-- Content row end -->
+    </div>
+    <!--/ Container end -->
+</section>
+<!--/ Service box end -->
+<!-- Service box start -->
+<section id="service" class="service ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 heading">
+                <span class="title-icon float-left"><i class="fa fa-cogs"></i></span>
+                <h2 class="title">
+                    Dịch vụ <span class="title-desc">
+                        Với hơn 5 năm kinh nghiệm
+                    </span>
+                </h2>
+            </div>
+        </div><!-- Title row end -->
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="services/helpdesk">
+                        <img class="m-3" src="~/images/THHH_single/support.png" />
+                        <h3>IT Service Helpdesk</h3>
+                        <p>
+                            Cung cấp dịch vụ IT Helpdesk<br /> từ xa và chuyên nghiệp
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!--/ End first service -->
+
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="services/outsource">
+                        <img class="m-3" src="~/images/THHH_single/web-mobile.png" />
+                        <h3>Website &amp; Mobile Outsourcing</h3>
+                        <p>
+                            Thực hiện các trang web sale, quảng bá<br />
+                            Các ứng dụng mobile tiện ích cho Khách hàng
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!--/ End Second service -->
+
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".s">
+                <div class="service-content text-center">
+                    <a href="services/it">
+                        <img class="m-3" src="~/images/THHH_single/consulting.png" />
+                        <h3>Cố vấn IT chuyên nghiệp</h3>
+                        <p>
+                            Tư vấn mua sắm và sử dụng thiết bị, phần mềm công nghệ
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!--/ End Third service -->
+
+        </div><!-- Content row end -->
+    </div>
+    <!--/ Container end -->
+</section>
+<!--/ Service box end -->
+<!-- Clients start -->
+<section id="clients" class="clients">
+    <div class="container">
+        <div class="row wow fadeInLeft">
+            <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                <figure class="m-0 item client_logo">
+                    <a href="#">
+                        <img src="~/images/THHH_single/passio.png" alt="client">
+                    </a>
+                </figure>
+                <figure class="m-0 item client_logo">
+                    <a href="#">
+                        <img src="~/images/THHH_single/an-binh.png" alt="client">
+                    </a>
+                </figure>
+                <figure class="m-0 item client_logo">
+                    <a href="#">
+                        <img src="~/images/THHH_single/factory-coffee.jpg" alt="client">
+                    </a>
+                </figure>
+                <figure class="m-0 item client_logo">
+                    <a href="#">
+                        <img src="~/images/THHH_single/tokyo.png" alt="client">
+                    </a>
+                </figure>
+                <figure class="m-0 item client_logo">
+                    <a href="#">
+                        <img src="~/images/THHH_single/qtsc.png" alt="client">
+                    </a>
+                </figure>
+                <figure class="m-0 item client_logo">
+                    <a href="#">
+                        <img src="~/images/THHH_single/nam-a.png" alt="client">
+                    </a>
+                </figure>
+                <figure class="m-0 item client_logo">
+                    <a href="#">
+                        <img src="~/images/THHH_single/phodinh.png" alt="client">
+                    </a>
+                </figure>
+                <figure class="m-0 item client_logo">
+                    <a href="#">
+                        <img src="~/images/THHH_single/guphukien.jpg" alt="client">
+                    </a>
+                </figure>
+            </div><!-- Owl carousel end -->
+        </div><!-- Main row end -->
+    </div>
+    <!--/ Container end -->
+</section>
+<!--/ Clients end -->

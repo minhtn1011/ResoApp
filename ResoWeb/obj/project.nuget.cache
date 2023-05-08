@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ca0UdB5eNqMqZ8HXqDQxQBU97aC7ARubxa6IDBKyzwR+oVhNZDSq86VKiakjOJQ06d/Dr+VRDEFr8oAMaRdgGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\minh2\\OneDrive\\Desktop\\ResoWeb\\ResoWeb\\ResoWeb\\ResoWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\minh2\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "C:\\Users\\minh2\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "C:\\Users\\minh2\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "C:\\Users\\minh2\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "C:\\Users\\minh2\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\minh2\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\minh2\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
